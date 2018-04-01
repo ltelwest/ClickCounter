@@ -26,7 +26,7 @@ extension UIColor {
 class ViewController: UIViewController {
 
     var count = 0
-    var label: UILabel!
+    @IBOutlet var label: UILabel!
     var label1: UILabel!
     
     override func viewDidLoad() {
